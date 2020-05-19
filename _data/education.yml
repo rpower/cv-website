@@ -1,0 +1,7 @@
+- name: University of Southampton
+  url: https://www.southampton.ac.uk/
+  period: 2009 - 2012
+  title: Economics
+  detail:
+    - text: Covered a variety of subjects including microeconomics, macroeconomics, political theory, statistical analysis and economic development policy.
+    - text: Undergraduate dissertation, "Investigating Forecasts during Structural Breaks", involved a quantitative analysis on the impact of structural breaks on economic forecasting and was awarded a 1st.

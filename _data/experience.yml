@@ -1,0 +1,34 @@
+- name: Eurostar
+  url: https://www.eurostar.com
+  period: March 2020 — Present
+  title: Senior Digital Insights Analyst
+  detail:
+    - text:
+- name: MATCHESFASHION
+  url: https://www.matchesfashion.com
+  period: September 2017 — September 2019
+  title: Digital Analytics Manager
+  detail:
+    - text: Responsible for owning and driving entire Digital Analytics strategy across the company, changing pre-existing approaches to decision-making and driving improvements in performance and delivering a competitive advantage by ensuring changes are driven by relevant and actionable customer behavioural data.
+    - text: Owned the CRO strategy, working with Product and Tech stakeholders to build a backlog of AB tests based on what we know about our users, deploy these tests, analyse and iterate using a Test & Learn approach.
+    - text: Led analytics roadmap across the business, driving change in how analysts access and interact with large datasets, this data was interpreted to provide decision-makers with relevant, timely, actionable and accurate insights and unlock value within the business by providing stakeholders with this information at their fingertips.
+    - text: Designed, and successfully delivered on, a detailed roadmap to improve analytics capabilities by implementing Adobe Analytics across all web and mobile app properties.
+- name: Expedia
+  url: https://www.expediagroup.com/
+  period: February 2016 — September 2017
+  title: Senior Digital Analyst
+  detail:
+    - text: Enabled fellow analysts and non-technical stakeholders to act more rapidly and efficiently upon customer behavioural information by leading strategic decision-making on Digital Analytics within the business.
+    - text: Worked with Product teams and internal CRO teams to provide the analytical and data capture support to new initiatives and features launching across the business.
+    - text: Worked closely with senior stakeholders to change the way the business works with and interprets customer behavioural information in all its forms.
+    - text: Leveraged my experience with web analytics to provide support and share knowledge with junior members of the team to help shape a best-in-class web analytics team.
+    - text: Responsible for maintaining and improving multiple web analytics implementations across our web and mobile app platforms.
+- name: ASOS
+  url: https://www.asos.com/
+  period: December 2013 — February 2016
+  title: Web Analyst
+  detail:
+    - text: Used extensive experience in statistics to provide actionable insight to the Retail departments at ASOS.
+    - text: Met with stakeholders across the business to help establish three pillars of optimisation - validation of new functionality, traditional testing and targeting.
+    - text: Wrote bespoke tracking for tests to ensure that we understand differences in customer behaviour between experiences and how this affects the purchase funnel and our other KPIs.
+    - text: Made regular recommendations for tests based on ASOS users' customer behaviour.

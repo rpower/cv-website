@@ -1,0 +1,12 @@
+{% for skill in site.data.skills %}
+<div class="row pt-5">
+  <div class="col">
+    <p>{{ skill.title }}</p>
+  </div>
+  <div class="col-8">
+    <p>
+      {{ skill.text }}
+    </p>
+  </div>
+</div>
+{% endfor %}

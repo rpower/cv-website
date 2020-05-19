@@ -1,0 +1,23 @@
+<div class="row py-5 border-bottom border-dark border-2">
+  <div class="col">
+    <p>Education</p>
+  </div>
+  <div class="col-8">
+    <div class="container">
+        {% for institution in site.data.education %}
+        <div class="row">
+          <p>
+            <a href="{{ institution.url }}" target="_blank">{{ institution.name }}</a>
+            <br />
+            <span class="font-italic">{{ institution.period }}</span>
+            <br />
+            {{ institution.title }}
+          </p>
+            {% for item in institution.detail %}
+              <p>{{ item.text }}</p>
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+  </div>
+</div>
