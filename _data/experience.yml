@@ -3,7 +3,10 @@
   period: March 2020 — Present
   title: Senior Digital Insights Analyst
   detail:
-    - text:
+    - text: Transforming relationships between Analytics and Product teams from a time-consuming, reporting-focused approach to a close, proactive practice where insights are provided and utilised throughout the Product development process.
+    - text: Improving customer retention and conversion rate in addition guiding Trading decisions during the pandemic in response to reporting and analysis I provide on a regular basis.
+    - text: Using tools and systems such as BigQuery, Airflow, Jupyter Notebooks and GitHub to ensure that regular reporting is as hands-off as possible, ensure analysis within the team is well-documented and reproducible and ensure that we monitor and are alerted to changes in data quality.
+    - text: Overseeing Implementation efforts by working closely with stakeholders, gathering requirements for reporting and analysis and turning these into tracking changes. Leading efforts to improve Implementation documentation.
 - name: MATCHESFASHION
   url: https://www.matchesfashion.com
   period: September 2017 — September 2019
@@ -14,7 +17,7 @@
     - text: Led analytics roadmap across the business, driving change in how analysts access and interact with large datasets, this data was interpreted to provide decision-makers with relevant, timely, actionable and accurate insights and unlock value within the business by providing stakeholders with this information at their fingertips.
     - text: Designed, and successfully delivered on, a detailed roadmap to improve analytics capabilities by implementing Adobe Analytics across all web and mobile app properties.
 - name: Expedia
-  url: https://www.expediagroup.com/
+  url: https://www.expedia.com/
   period: February 2016 — September 2017
   title: Senior Digital Analyst
   detail:
