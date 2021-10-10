@@ -2,3 +2,6 @@
 permalink: :title/
 sass:
   sass_dir: css
+
+# Environment
+environment: production
