@@ -3,31 +3,15 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  {%- if site.environment == "production" -%}
-  	{%- assign matomo_site_id = 1 -%}
-    <script>
-      console.log('Environment: Production');
-    </script>
-  {%- else -%}
-  	{%- assign matomo_site_id = 2 -%}
-    <script>
-      console.log('Environment: Development');
-    </script>
-  {%- endif -%}
 
-  <!-- M Code -->
-  <script type="text/javascript">
-    var _paq = window._paq || [];
-  	_paq.push(['disableCookies']);
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-      var u="//www.ryanpower.co.uk/m/";
-      _paq.push(['setTrackerUrl', u+'m.php']);
-      _paq.push(['setSiteId', '{{ matomo_site_id }}']);
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'m.js'; s.parentNode.insertBefore(g,s);
-    })();
+  {%- assign ga_measurement_id = "G-5EYD5T7GP6" -%}
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ ga_measurement_id }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '{{ ga_measurement_id }}');
   </script>
-  <noscript><p><img src="//www.ryanpower.co.uk/m/m.php?sid={{ matomo_site_id }}&amp;rec=1" style="border:0;" alt="" /></p></noscript>
-  <!-- End M Code -->
