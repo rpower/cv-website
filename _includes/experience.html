@@ -7,8 +7,10 @@
         {% for company in site.data.experience %}
         <div class="row">
           <p>
+            {% if company.promoted != true %}
             <a href="{{ company.url }}" target="_blank">{{ company.name }}</a>
             <br />
+            {% endif %}
             <span class="font-italic">{{ company.period }}</span>
             <br />
             {{ company.title }}

@@ -1,16 +1,22 @@
 - name: Eurostar
   url: https://www.eurostar.com
-  period: January 2022 — Present
+  period: November 2023 — Present
+  title: Head of Digital and Marketing Insights
+- name: Eurostar
+  url: https://www.eurostar.com
+  period: January 2022 — November 2023
   title: Head of Digital Analytics
+  promoted: true
   detail:
     - text: Recruited and directly leading a team of Digital Analysts, including ownership of site performance reports, in-house experimentation reporting suite and deep-dive analytics tooling.
     - text: Building a self-serve reporting suite of tools to measure the contribution of different business areas to revenue in addition to surfacing pain points in customers' experience on our Digital touchpoints.
     - text: Supporting Digital Product strategy and fostering data-driven culture through the definition of success metrics, continuous roadmap development and pro-active delivery of insights to stakeholders.
     - text: Using quantitative and qualitative customer-behavioural information to expose opportunities to improve user experience.
-- name:
+- name: Eurostar
   url: https://www.eurostar.com
   period: March 2020 — December 2021
   title: Senior Digital Insights Analyst
+  promoted: true
   detail:
     - text: Transforming relationships between Analytics and Product teams from a time-consuming, reporting-focused approach to a close, proactive practice where insights are provided and utilised throughout the Product development process.
     - text: Supported Product and Tech teams by building and owning an in-house anomaly detection mechanism to ensure significant changes in key business metrics are identified, investigated and resolved as soon as they appear.
